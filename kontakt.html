@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="sr-Latn-RS">
+
+<head>
+    <title>Alfa | Kontakt</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Bogat izbor auto delova i opreme. Jednostavan način online poručivanja delova." />
+    <meta name="keywords" content="tekvondo, borilacka vestina, treninzi, taekwondo klub" />
+
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'/>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container navigation">
+                <div id="logo-block"><a href="index.html"><img id="logo" src="img/logo.png" alt="logo"></a></div>
+                <div id="menu">
+                    <ul>
+                        <li><a href="index.html">Naslovna</a></li>
+                        <li><a href="tekvondo.html">Tekvondo</a></li>
+                        <li><a href="o-autoru.html">O autoru</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="overlay kontakt"></div>
+            <div id="kontakt-sekcija">
+                <div class="container">
+                    <h1>Kontakt</h1>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="col-2">
+                    <div class="col">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.334730868591!2d20.482119676614317!3d44.81474497653611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7a9609031735%3A0xc17ed71f59ac4725!2sICT%20College!5e0!3m2!1sen!2srs!4v1700946181195!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <div class="col kontakt-col">
+                        <h2>Tekvondo klub Alfa</h2>
+                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> Zdravka Čelara 16, Beograd</p>
+                        <p><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+381622222222"> 062 2222222</a></p>
+                        <p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@alfa.rs"> info@alfa.rs</a></p>
+
+                        <form action="obrada.php" method="POST" id="forma">
+                            <div class="forma">
+                                <div class="forma-1">
+                                    <input type="text" id="ime" name="ime" placeholder="Ime">
+                                    <input type="email" id="email" name="email" placeholder="E-mail">
+                                </div>
+                                <div class="forma-2">
+                                    <input type="text" id="prezime" name="prezime" placeholder="Prezime">
+                                    <input type="tel" id="telefon" name="telefon" placeholder="Broj telefona">
+                                </div>
+                            </div>
+                            <textarea name="Poruka" id="Poruka" rows="7" placeholder="Poruka"></textarea>
+                            <input type="submit" id="posalji" name="posalji" value="Pošalji">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="container flex2">
+                <div class="k3">
+                    <h3>Kontaktirajte nas</h3>
+                    <p><i class="fa fa-map-marker" aria-hidden="true"></i> Zdravka Čelara 16, Beograd</p>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+381622222222"> 062 2222222</a></p>
+                    <p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@alfa.rs"> info@alfa.rs</a></p>
+                    <p><a href=""><i class="fa fa-sitemap" aria-hidden="true"></i> Sitemap</a></p>
+                    <p><a href=""><i class="fa fa-rss" aria-hidden="true"></i> RSS</a></p>
+                </div>
+                <div class="k3">
+                    <h3>Brzi linkovi</h3>
+                    <div id="donji-meni">
+                        <ul>
+                            <li><a href="index.html">Naslovna</a></li>
+                            <li><a href="tekvondo.html">Tekvondo</a></li>
+                            <li><a href="o-autoru.html">O autoru</a></li>
+                            <li><a href="kontakt.html">Kontakt</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="k3">
+                    <h3>Newsletter</h3>
+                    <p>Prijavite se na naš newsletter i pridružite nam se.</p>
+                    <form action="#" method="GET" id="newsletterForma">
+                        <input type="email" id="newsletter" name="newsletter" placeholder="E-mail adresa" required>
+                        <input type="submit" id="posalji" name="posalji" value="Pošalji">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="copyright">
+            <hr class="white-line">
+            <p>&copy; 2023 Design & Development: Vojin Konatarević <br>
+                All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
