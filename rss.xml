@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Taekwondo klub Alfa</title>
+        <link>https://vojin13.github.io/Taekwondo/index.html</link>
+        <description>O tekvondo-u</description>
+        <item>
+            <title>O taekwondo-u</title>
+            <link>https://vojin13.github.io/Taekwondo/tekvondo.html</link>
+            <description>Saznajte više o taekwondo-u</description>
+        </item>
+    </channel>
+</rss>
