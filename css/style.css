@@ -220,6 +220,7 @@ main{
 .kolone img{
     height: 210px;
     width: 320px;
+    object-fit: cover;
     border-radius: 5px;
 }
 
@@ -600,14 +601,14 @@ footer{
     text-transform: uppercase;
     margin-bottom: 30px;
     padding-top: 20px;
-} 
+}
 
 .container.galerija-content img{
     width: 400px;
-    height: 280px;
     margin-bottom: 30px;
     border-radius: 10px;
     transition: all 0.5s;
+    object-fit: cover;
 }
 
 .container.galerija-content img:hover{
