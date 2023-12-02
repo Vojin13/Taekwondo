@@ -30,11 +30,6 @@
     }
 }
 
-@keyframes border-hover {
-    0% {border-bottom: none;}
-    100% {border-bottom: 2px solid #F0B031;}
-}
-
 *{
     margin: 0px;
     padding: 0px;
@@ -93,14 +88,26 @@ header{
 #menu ul li a{
     color: white;
     text-transform: uppercase;
+    position: relative;
 }
 
-#menu ul li a:hover{
-    animation: border-hover;
-    animation-duration: 0.2s;
-    transition: 0.3s ease-in-out;
-    padding-bottom: 4px;
-    border-bottom: 2px solid #F0B031;
+#menu ul li a.active{
+    color: #F0B031;
+}
+
+#menu ul li a::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0%;
+    width: 0%;
+    height: 3px;
+    background-color: #F0B031;
+    transition: all .5s;
+}
+
+#menu ul li a:hover::before{
+    width: 100%;
 }
 
 #main-section .flex{
